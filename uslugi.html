@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+	<title>Cennik usług</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Meble na wymiar.">
+	<meta name="keywords" content="stolarstwo; Marosław; Opole; NWK;">
+	<meta name="author" content="Marek Muller">
+	<meta name="cpyrights" content="Stolarstwo Marosław">
+	<link rel="icon" href= "favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href= "css/style.css">
+	<link rel="stylesheet" type="text/css" href= "css/uslugi.css">
+</head>
+<body>
+
+<div id="baner">
+	<embed src="baner.swf" height="700px" width="100%"/>
+</div>
+
+<div class="menu" id="menu2">
+	<a href="index.html">O Firmie</a>
+	<a href="uslugi.html" style="color: red;">Usługi</a>	
+	<a href="galeria.html">Galeria</a>
+	<a href="kontakt.html">Kontakt</a>
+</div>
+
+<div id="tresc">
+
+	Oto cennik usług. <br />
+	Ceny są zależne od ilości zużytych materiałów. <br />
+	W celu uzyskania dokładniejszej wyceny proszę zadzwonić i umówić się na wymierzenie pomieszczenia, lub proszę wysłać na maila wszystkie wymiary mebla.
+	<br /><br />
+	<a href="mailto:maherszalalchaszbaz@o2.pl?subject=Wycena">maherszalalchaszbaz@o2.pl</a> <br />
+
+	<table>
+		<tr>
+			<td class="usluga">mała szafka</td>
+			<td class="cena">400 zł</td>
+		</tr>
+		
+		<tr>
+			<td class="usluga">duża szafka</td>
+			<td class="cena">700 zł</td>
+		</tr>
+		
+		<tr>
+			<td class="usluga">drzwi</td>
+			<td class="cena"> 250 zł</td>
+		</tr>
+		
+		<tr>
+			<td class="usluga">stół</td>
+			<td class="cena">200 zł</td>
+		</tr>
+		
+		<tr>
+			<td class="usluga">biurko</td>
+			<td class="cena">200 zł</td>
+		</tr>
+	</table>
+</div>
+
+<div id="stopka">Stolarstwo Marosław N.W.K. ©2k19</div>
+
+<div id="strzala"><a href="#baner"><img src="strzałka.png" style="width:50px; height:50px;"></a></div>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu2");
+	var przyklejenie = menu.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset > przyklejenie) {
+		menu.classList.add("przyklejenie");
+	  } else {
+		menu.classList.remove("przyklejenie");
+	  }
+	}
+	</script>
+
+</body>
+</html>

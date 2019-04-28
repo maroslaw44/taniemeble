@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+	<title>Stolarstwo Marosław</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Meble na wymiar.">
+	<meta name="keywords" content="stolarstwo; Marosław; Opole; NWK;">
+	<meta name="author" content="Marek Muller">
+	<meta name="cpyrights" content="Stolarstwo Marosław">
+	<link rel="icon" href= "favicon.ico" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href= "css/style.css">
+	<link rel="stylesheet" type="text/css" href= "css/firma.css">
+</head>
+<body>
+
+<div id="baner">
+	<embed src="baner.swf" height="700px" width="100%"/>
+</div>
+
+<div class="menu" id="menu2">
+	<a href="index.html" style="color: red;">O Firmie</a>
+	<a href="uslugi.html">Usługi</a>	
+	<a href="galeria.html">Galeria</a>
+	<a href="kontakt.html">Kontakt</a>
+</div>
+
+<div class="opis">
+		Meble, schody, kuchnie, drzwi i inne usługi stolarskie  <br />
+		wykonywane na wymiar w przystępnych cenach.
+</div>
+
+	<img src="glowna.jpg" style="margin-top:100px;">
+	
+<div id="tresc">
+	Firma powstała w 1988 roku i jest firmą rodzinną z wieloletnim doświadczeniem. 
+	Dzięki wieloletniemu doświadczeniu jesteśmy w stanie sprostać każdemu, nawet najbardziej wymagającemu klientowi.
+	<br /><br />
+	Jesteśmy przekonani, że nasi Klienci zasługują na to, aby ich otaczało to co najlepsze.
+	Dlatego materiały, z których tworzymy meble dla Państwa dobierane są ze szczególną starannością.
+	<br /><br /><br />
+	
+		Co nas wyróżnia?
+			<ul>
+				<li>Posiadamy nowoczesny park maszynowy, wykoszystujemy najnowsze technologie w stolarstwie,</li>
+				<li>kompleksowa obsługa w zakresie stolarstwa,</li>
+				<li>malujemy najwyższej klasy lakierami w 300 dowolnie wybranych barwach,</li>
+				<li>wykorzystujemy najlepszej jakości gatunki drewna.</li>
+			</ul>
+</div>
+
+<div id="kontakt">
+	Kontakt
+		<p>
+			ul. Henryka Stolarskiego 26 <br />
+			45-062 Opole <br />
+			e-mail: <a href="mailto:maherszalalchaszbaz@o2.pl">maherszalalchaszbaz@o2.pl</a> <br />
+			Telefon: 911 420 213
+		</p>
+</div>
+
+<div id="stopka">Stolarstwo Marosław N.W.K. ©2k19</div>
+
+<div id="strzala"><a href="#baner"><img src="strzałka.png" style="width:50px; height:50px;"></a></div>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var menu = document.getElementById("menu2");
+	var przyklejenie = menu.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset > przyklejenie) {
+		menu.classList.add("przyklejenie");
+	  } else {
+		menu.classList.remove("przyklejenie");
+	  }
+	}
+	</script>
+
+</body>
+</html>
